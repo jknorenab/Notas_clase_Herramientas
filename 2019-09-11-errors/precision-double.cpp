@@ -1,7 +1,7 @@
 #include <cstdio>
 #include <cmath>
 #include <cstdlib>
-
+// hace lo mismo que mchnprecision, pero para variables double. Tal que la maquina hace underflow para varibles de alrededor e-315
 
 int main(void){
 
