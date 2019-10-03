@@ -1,4 +1,4 @@
-#include <cstdio>
+#include <cstdio> //Cambio sin efecto, para hacer makefile
 #include <cmath>
 // En este programa calcularemos de diferentes formas la misma suma y veremos   cómo cambia el resultado de cada una, dados los errores numéricos que se pueden  cometer como substracción cancelativa, o errores de uderflow o overflow.En este sentido, estudiamos el valor relativo con respecto a una (S3) que consideramos exacta, y vemos las diferencias a través de las gráficas.
 
