@@ -1,6 +1,6 @@
 #include <cstdio>
 #include <cmath>
-// En este programa calcularemos de diferentes formas la misma suma y veremos   cómo cambia el resultado de cada una, dados los errores numéricos que se pueden  cometer como substracción cancelativa, o errores de uderflow o overflow.
+// En este programa calcularemos de diferentes formas la misma suma y veremos   cómo cambia el resultado de cada una, dados los errores numéricos que se pueden  cometer como substracción cancelativa, o errores de uderflow o overflow.En este sentido, estudiamos el valor relativo con respecto a una (S3) que consideramos exacta, y vemos las diferencias a través de las gráficas.
 
 //Así definimos unas funciones que calcularán la misma suma pero de diferentes   maneras, para un N dado
 double sum1(int n);
@@ -14,6 +14,8 @@ int main(void){
   double S3;
   double delta1;
   double delta2;
+
+  // No es necesario inicializar las variables como aquí, pues más adelante les vamos a dar un valor en términos de cosas que el programa ya conoce. Si no fuera así, sería NECESARIO E IMPRESCINDIBLE inicializarlas.
 
   S1 = 0;
   S2 = 0;
