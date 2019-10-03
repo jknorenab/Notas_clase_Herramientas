@@ -1,4 +1,4 @@
-#include "sum2.h"
+#include "sum2.h" //Cambio, para ver el poder de Makefiles. Dado este cambio, al hacer de nuevo make, él solo compilará lo que cambió y posterior a eso compilará lo que dependía de ese ejecutable que cambió
 
 double sum2(int n){
   double sum1;
