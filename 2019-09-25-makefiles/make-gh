@@ -5,5 +5,4 @@ github: *.cpp
 
 .PHONY: clean
 clean:
-	rm -f *~ *# a.out *.x *.txt
-	
+	rm -f *.x
